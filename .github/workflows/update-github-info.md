@@ -15,6 +15,7 @@ network:
 engine:
   id: copilot
   copilot-sdk: true
+  model: gpt-4.1
 tools:
   cli-proxy: false
   edit:
