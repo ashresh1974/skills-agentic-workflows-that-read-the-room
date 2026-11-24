@@ -12,6 +12,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -37,12 +38,13 @@ Review Mona's editorial guidance and the latest official GitHub news, then propo
 1. Read `notes/mona-notes.md` and follow its editorial rules.
 2. Fetch `https://github.blog/latest/`.
 3. Fetch `https://github.blog/changelog/`.
+4. Fetch `https://awesome-copilot.github.com/workflows/`.
 
 ## Task
 
-- Compare the fetched Blog and Changelog information with the current content in `site/content/github-info.md`.
+- Compare the fetched Blog, Changelog, and Awesome Copilot workflows information with the current content in `site/content/github-info.md`.
 - Add or revise only practical, concise, source-backed information that helps developers learn GitHub faster.
-- Mention the source for every item that comes from the GitHub Blog or GitHub Changelog.
+- Mention the source for every item that comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 - Preserve Mona's existing editorial angle and avoid unsupported claims.
 - Make no other repository changes.
 
